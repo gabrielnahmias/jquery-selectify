@@ -13,14 +13,14 @@ What does it do?
 How to use it
 -----------
 
-Of course, before doing anything, you must include **jQuery** (can't do it for ya!) and **jquery.selectify.js** or its minified version on your page like so
+Of course, before doing anything, you must include **jQuery** (can't do it for ya!) and **jquery.selectify.js** or its minified version on your page like so:
 	
 ```javascript
 <script language="javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
 <script language="javascript" src="jquery.selectify.js" type="text/javascript"></script>
 ```
 
-Now that that that'ss done, we can get to the easy stuff.
+Now that that that's done, we can get to the easy stuff.
 
 There are 5 available options you can set when using Selectify, and they are:
 
