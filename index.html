@@ -36,21 +36,43 @@ $( function() {
 		
 		debug: true,
 		
-		toggle: false
+		title: "Click to select code",
+		
+	} );
+	
+	$(".child-test:eq(0)").selectify( {
+		
+		debug: true,
+		
+		pointer: "parent",
+		
+		toggle: false,
+		
+	} );
+	
+	$(".child-test:eq(1)").selectify( {
+		
+		debug: true,
+		
+		toggle: true,
 		
 	} );
 	
 	$(".clicker").selectify( {
 		
+		debug: true,
+		
 		target: "#text",
 		
 		toggle: true,
 		
-		title: "Click to select input field"
+		title: "Click to select/deselect input field"
 		
 	} );
 	
 	$(".clicker2").selectify( {
+		
+		debug: true,
 		
 		target: "code",
 		
@@ -72,7 +94,47 @@ $( function() {
 
 <input id="text" type="text" value="Voila!" />
 
-<div class="clicker2">
+<div class="child-test">
+	
+	<label>No pointer for me... I'm so special.</label>
+	
+	<em>
+		
+		<strong>I'm a kid.</strong>
+		
+		<strong>Some element</strong>
+		
+		<strong>Another element</strong>
+		
+		<strong>More elemental action</strong>
+		
+	</em>
+	
+	<input type="text" value="Also, I'm unstoppable." />
+	
+</div>
+
+<div class="child-test">
+	
+	<label>Oh, no!  You got me; I'm so pointed (default).</label>
+	
+	<em>
+		
+		<strong>Kid stylee.</strong>
+		
+		<strong>Errbody got a pointah!</strong>
+		
+		<strong>Point me...</strong>
+		
+		<strong>I love you</strong>
+		
+	</em>
+	
+	<input type="text" value="Don't worry.  I'll stop for ye." />
+	
+</div>
+
+<div class="clicker2 inline-block">
 	
 	<strong>Select the code</strong>
 	
