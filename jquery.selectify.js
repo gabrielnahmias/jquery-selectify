@@ -271,7 +271,7 @@
 		
 		if (this.oSettings.debug) {
 			
-			sMsg = "Element selectified:";
+			sMsg = "Element(s) selectified:";
 			
 			if (bIE) {
 				
