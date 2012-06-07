@@ -24,11 +24,11 @@ Now that that that's done, we can get to the easy stuff.
 
 There are 5 available options you can set when using Selectify, and they are:
 
-1.  **debug** (default: **```false```**) - outputs debugging information to the console.
-2.  **pointer** (default: **```true```**) - this makes the element have a pointer when you hover over it.  Can be set to ```"all"```, ```"parent"```, **```true```**, or **```false```** (along with **```undefined```** or whatever but I recommend one of the previously mentioned).  ```"all"``` (or **```true```**) applies the pointer to the parent element and its children, whereas ```"parent"``` (or **```false```**) applies it solely to the parent element.
-3.  **target** (default: **```null```**) - makes the element on which you call the method select this element (a selector).
+1.  **debug** (default: ```false```) - outputs debugging information to the console.
+2.  **pointer** (default: ```true```) - this makes the element have a pointer when you hover over it.  Can be set to ```"all"```, ```"parent"```, ```true```, or ```false``` (along with ```undefined``` or whatever but I recommend one of the previously mentioned).  ```"all"``` (or ```true```) applies the pointer to the parent element and its children, whereas ```"parent"``` (or ```false```) applies it solely to the parent element.
+3.  **target** (default: ```null```) - makes the element on which you call the method select this element (a selector).
 4.  **title** (default: "Click to select text") - sets the title of the element.
-5.  **toggle** (default: **```false```**) - selected text becomes unselected when you click it again.
+5.  **toggle** (default: ```false```) - selected text becomes unselected when you click it again.
 
 Examples
 -----------
