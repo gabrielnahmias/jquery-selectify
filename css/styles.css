@@ -1,0 +1,33 @@
+code {
+	
+	font-size: 12px !important;
+	
+	margin-top: 10px;
+	
+	/*
+	background: white;
+	
+	border: 1px solid green;
+	
+	border-radius: 5px;
+	
+	color: green;
+	
+	font-family: "Courier New", Courier, monospace;
+	
+	
+	padding: 3px;
+	*/
+}
+
+div {
+	
+	margin: 10px 0 0 ;
+	
+}
+
+.blue {
+	
+	color: #0000FF;
+	
+}
