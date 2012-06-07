@@ -13,7 +13,7 @@ What does it do?
 How to use it
 -----------
 
-Of course, before doing anything, you must include **jQuery** (can't do it for ya!) and **jquery.selectify.js** on your page like so
+Of course, before doing anything, you must include **jQuery** (can't do it for ya!) and **jquery.selectify.js** or its minified version on your page like so
 	
 ```javascript
 <script language="javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
