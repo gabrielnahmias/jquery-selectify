@@ -79,4 +79,4 @@ Public domain
 Acknowledgements
 ------------
 
-Selectify is a project by [Gabriel Nahmias](mailto:gabriel@terrasoftlabs.com), co-founder of Terrasoft.
+Selectify is a project by [Gabriel Nahmias](mailto:gabriel@terrasoftlabs.com), co-founder of [Terrasoft](http://terrasoftlabs.com).
