@@ -16,7 +16,7 @@ How to use it
 Of course, before doing anything, you must include **jQuery** (that wouldn't be right to do through my script!) and **jquery.selectify.js** or its minified version on your page like so:
 	
 ```javascript
-<script language="javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script language="javascript" src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <script language="javascript" src="jquery.selectify.js" type="text/javascript"></script>
 ```
 
@@ -36,31 +36,18 @@ Examples
 As simple as it gets (no options specified):
 
 ```javascript
-<script language="javascript" type="text/javascript">
-
 $("code").selectify();
-
-</script>
 ```
 
 Most options specified:
 
 ```javascript
-<script language="javascript" type="text/javascript">
-
 $(".clicker").selectify( {
-	
 	debug: true,
-	
 	target: "#text",
-	
 	toggle: true,
-	
 	title: "Click to select/deselect text"
-	
 } );
-
-</script>
 ```
 
 Browser support
